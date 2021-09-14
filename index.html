@@ -1,0 +1,407 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Аламазное бурение отверстий</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+  	<div class="success">Ваша заявка отправлена!</div>
+	<!-- Modal -->
+	<div class="modal fade" id="call" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<h2 class="modal-title">Обратный звонок</h2>
+		        	<h4>Заполните поля и мы перезвоним<br>Вам в ближайшее время</h4>
+		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          	<span>&times;</span>
+		        	</button>
+		      	</div>
+	      	<div class="modal-body">
+	      		<form action="" method="post">
+	      			<input type="hidden" class="type" value="call" name="type">
+					<input class="name" name="name" type="text" required placeholder="Ваше имя">
+					<input class="tel" name="tel" type="text" required placeholder="Ваш телефон">
+		       		<button>Перезвоните мне</button>	      			
+	      		</form>
+	      	</div>
+	    </div>
+	  </div>
+	</div>
+	<div class="modal fade" id="zamer" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<h2 class="modal-title">ЗАКАЗАТЬ<br>БЕСПЛАТНЫЙ ЗАМЕР</h2>
+		        	<h4>Оставьте заявку и мы перезвоним<br>Вам в ближайшее время</h4>
+		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          	<span>&times;</span>
+		        	</button>
+		      	</div>
+	      	<div class="modal-body">
+	      		<form action="" method="post">
+	      			<input type="hidden" class="type" value="zamer" name="type">
+					<input class="name" name="name" type="text" required placeholder="Ваше имя">
+					<input class="tel" name="tel" type="text" required placeholder="Ваш телефон">
+		       		<button>ОСТАВИТЬ ЗАЯВКУ</button>	      			
+	      		</form>
+	      	</div>
+	    </div>
+	  </div>
+	</div>
+    <header>
+    	<div class="container-fluid">
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="header col-12 d-flex justify-content-between align-items-center flex-wrap">
+		    			<div class="logo-block d-flex justify-content-between align-items-end flex-wrap">
+		    				<img src="images/logo.png" alt="logo">
+		    				<span><br><FONT size="+2">Аламазное бурение отверстий</FONT><br><FONT size="+2">В Санкт-Петербурге</FONT></span>
+		    			</div>
+		    			<div class="contacts d-flex justify-content-between align-items-center flex-wrap">
+		    				<div class="tel-block d-flex justify-content-sm-between justify-content-center align-items-end">
+		    					<img src="images/phone-icon.png" alt="icon">
+		    					<div>
+			    					<a href="tel:+79967948664">+7 (996) 794 86 64</a>
+			    					<span align="right"> e-mail: komftech@yandex.ru</span>    						
+		    					</div>
+		    				</div>
+		    				<button data-toggle="modal" data-target="#call">Заказать звонок</button>
+		    			</div>
+		    		</div>
+		    	</div>    		
+	    	</div>    		
+    	</div>
+		<nav>
+			<div class="container">
+				<div class="row">
+				    <button class="d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+				      	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
+							<g><path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" fill="#FFFFFF"/><path d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" fill="#FFFFFF"/><path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" fill="#FFFFFF"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+						</svg>
+				    </button>
+					<div class="col-12 d-md-flex justify-content-between align-items-center collapse" id="navbarToggleExternalContent">
+						<a class="smoothScroll" href=".kinds">Прайс</a>
+						<a class="smoothScroll" href=".texnology">Наши клиенты и виды работ</a>
+						<a class="smoothScroll" href=".ask">Ответы на вопросы</a>
+						<a class="smoothScroll" href="footer">Контакты</a>					
+					</div>
+				</div>				
+			</div>
+		</nav>
+    </header>
+	<main>
+		<div class="first-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="h1-block">
+							<h1>Алмазное<br>Бурение отверстий</h1>
+							<h2>Выезд от 4000р.</h2>
+							<span class="d-flex justify-content-center align-items-center">Дарим подарки!</span>
+							<p><br> Скидка на каждый 3-й выезд 20%!</p>
+						</div>
+						<div style="background-color: rgba(255, 255, 255, .8);-webkit-border-radius: 5px; border-radius: 5px; text-align: center;">
+							<div class="grid" style="margin:20px";>
+						<div class="item item1">
+							<div class="img-block"><img src="images/item1.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Профессионализм</h3>
+								<span>Опытная бригада монтажников и современное оборудование HILTI</span>
+							</div>
+						</div><br>
+						<div class="item item3">
+							<div class="img-block"><img src="images/item3.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Широкие выбор</h3>
+								<span>Широкий диапозон диаметров от 20 до 600 мм</span>
+							</div>
+						</div><br>
+						<div class="item item4">
+							<div class="img-block"><img src="images/item4.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Лучшие материалы</h3>
+								<span>Используем только  качественные инструменты и расходники</span>
+							</div>
+						</div
+					</div>
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="characteristics col-12">
+					<h2 class="wow fadeInDown" data-wow-duration="2s">Быстро, чисто, безопасно!</h2>
+					<div class="grid">
+						<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item1.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Профессионализм</h3>
+								<span>Опытная бригада монтажников и современное оборудование HILTI</span>
+							</div>
+						</div>
+						<div class="item item3 wow fadeInRight" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item3.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Широкие выбор</h3>
+								<span>Широкий диапозон диаметров от 20 до 600 мм</span>
+							</div>
+						</div>
+						<div class="item item4 wow fadeInLeft" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item4.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Лучшие материалы</h3>
+								<span>Используем только  качественные инструменты и расходники</span>
+							</div>
+						</div>
+						<div class="item item5 wow fadeInUp" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item5.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Заключение договора</h3>
+								<span>Работаем официально, есть все необходимые сертификаты</span>
+							</div>
+						</div>
+						<div class="item item8 wow fadeInLeft" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item8.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Ценим ваше время</h3>
+								<span>Изготовление заказа в максимально короткое время</span>
+							</div>
+						</div>
+						<div class="item item9 wow fadeInRight" data-wow-duration="2s">
+							<div class="img-block"><img src="images/item9.png" alt="icon"></div>
+							<div class="desc">
+								<h3>Аккуратный монтаж</h3>
+								<span>Алмазное бурение не загрязняет помещение пылью</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kinds container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="wow fadeInDown" data-wow-duration="2s">Прайс</h2>
+						<table  align="center" border="1" align="center" width="80%" height="500">
+
+  <tr>
+    <td align="center"><FONT size="+2">Диаметр отверстий</FONT"></td>
+    <td align="center"><FONT size="+2">Кирпич, пенобетон, р./см.</FONT"></td>
+    <td align="center"><FONT size="+2">Железобетон, р./см.</FONT"></td>
+  </tr>
+  <tr align="center">
+    <td>до 90 мм</td><td align="center">20</td>
+    <td align="center">25</td>
+  </tr>
+  <tr  align="center">
+    <td>90-140 мм</td>
+    <td align="center">23</td>
+    <td align="center">40</td>
+  </tr>
+    <tr align="center">
+    <td>140-170 мм</td>
+    <td align="center">25</td>
+    <td align="center">45</td>
+  </tr>
+  <tr align="center">
+    <td>170-200 мм</td>
+    <td align="center">30</td>
+    <td align="center">50</td>
+  </tr>
+  <tr align="center">
+    <td>200-250 мм</td>
+    <td align="center">35</td>
+    <td align="center">60</td>
+  </tr>
+  <tr align="center">
+    <td>250-300 мм</td>
+    <td align="center">45</td>
+    <td align="center">70</td>
+  </tr>
+  <tr align="center">
+    <td>300-350 мм</td>
+    <td align="center">60</td>
+    <td align="center">80</td>
+  </tr>  
+  <tr align="center">
+    <td>400 мм</td>
+    <td align="center">100</td>
+    <td align="center">125</td>
+  </tr>
+    <tr align="center">
+    <td>450 мм</td>
+    <td align="center">135</td>
+    <td align="center">160</td>
+  </tr>
+    <tr align="center">
+    <td>500 мм</td>
+    <td align="center">160</td>
+    <td align="center">195</td>
+  </tr>
+    <tr align="center">
+    <td>600 мм</td>
+    <td align="center">220</td>
+    <td align="center">250</td>
+  </tr>
+</table>
+
+						<div class="grid"></div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="texnology col-12">
+					<h2 class="wow fadeInUp" data-wow-duration="2s">Наши клиенты</h2>
+					<div class="grid">
+						<div class="wow fadeInLeft" data-wow-duration="2s">
+							<img src="images/texnology-item1.jpg" alt="img">
+							<h3>Владельцы квартир</h3>
+						</div>
+						<div class="wow fadeInUp" data-wow-duration="2s">
+							<img src="images/texnology-item2.jpg" alt="img">
+							<h3>Владельцы коттеджей и загородных домов</h3>
+						</div>
+						<div class="wow fadeInUp" data-wow-duration="2s">
+							<img src="images/texnology-item3.jpg" alt="img">
+							<h3>Строительные бригады</h3>
+						</div>
+						<div class="wow fadeInRight" data-wow-duration="2s">
+							<img src="images/texnology-item4.jpg" alt="img">
+							<h3>Строительные компании</h3>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="potolki-for container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="wow fadeInUp" data-wow-duration="2s">Виды бурения отверстий</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 grid">
+					<div class="item wow fadeInLeft" data-wow-duration="2s">
+						<img src="images/for-item1.jpg" alt="img">
+						<span>Вентиляция</span>
+					</div>
+					<div class="item wow fadeInUp" data-wow-duration="2s">
+						<img src="images/for-item2.jpg" alt="img">
+						<span>Канализация</span>
+					</div>
+					<div class="item wow fadeInRight" data-wow-duration="2s">
+						<img src="images/for-item3.jpg" alt="img">
+						<span>Проёмы</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ask container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12  wow fadeInUp" data-wow-duration="2s">
+						<h2>Ответы на вопросы</h2>
+						<h3>Можете задать вопросы по телефону <a href="tel:+79967948664">+7 (996) 794 86 64</a><br>или просто оставьте заявку и мы вам перезвоним</h3>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 ask-blocks wow fadeInLeft" data-wow-duration="2s">
+							<div class="item item1">
+								<h4>Какие повреждения от алмазного бурения отверстий?</h4>
+								<div>Аламазное бурение отверстий исключает удары и вибрацию, что позволяет сделать отверстие без повреждений.</div>
+							</div>
+							<div class="item item2">
+								<h4>Сколько стоит алмазное бурение отверстий?</h4>
+								<div>Минимальная стоимость заказа 4000р. Стоимость складывается из следующих факторов: вид материала сверления (кирпич/бетон), глубина сверления, диаметр отверстия, сложность работ.</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 ask-blocks ask-blocks2 wow fadeInRight" data-wow-duration="2s">
+							<div class="item item4">
+								<h4>Какой срок исполнения заказа?</h4>
+								<div>Чаще всего срок исполнения заказа 1 день. При увеличении объема, сроки могут увеличиться, для уточнения, позвоните нам!</div>
+							</div>
+							<div class="item item5">
+								<h4>Как сильно загрязняется помещение?</h4>
+								<div>При сверлении, на коронку подается вода, что помогает избежать большого количества пыли. Однако мы рекомендуем особенно ценные предметы и комнатные растения вынести из помещения.</div>
+							</div>
+						</div>
+						<div class="col-12 wow fadeInUp" data-wow-duration="2s">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="call wow fadeInUp" data-wow-duration="2s">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>Вызовите специалиста в любой день,<br>мы работаем без выходных!</h2>
+						<h3>Произведем необходимые работы, поможем определиться с местом сверления<br class="d-none d-md-block"> и диаметром отверстия!</h3>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<div id="map">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="places">
+							<img class="places-logo" src="images/logo.png" alt="logo">
+							<span>г. Санкт-Петербург, м.Пионерская</span>
+							<div>
+						    	<img src="images/phone-icon.png" alt="img">
+						    	<a href="tel:+79967948664">+7 (996) 794 86 64</a>				
+					    	</div>
+						</div>						
+					</div>	
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="copy">"Комфортные технологии"</div>
+					<div class="desc">Алмазное бурение отверстий<br>в Санкт-Петербурге и Ленинградской области</div>
+					<div class="footer-contacts">
+						<a class="link-tel" href="tel:+79967948664"><img src="images/tel.png" alt="icon">+7 (996) 794 86 64</a>
+						<a class="link-mail" href="mailto:натяжные-потолки@gmail.com"><img src="images/mail.png" alt="icon">komftech@yandex.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a class="up" href="#"><img src="images/chevron-up.png" alt="icon"></a>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/script.js"></script>
+  </body>
+</html>
